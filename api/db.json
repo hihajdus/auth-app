@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tom Stout",
+      "email": "t.stout@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "John Ale",
+      "email": "j.ale@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Kristy Bitter",
+      "email": "k.bitter@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "ddd",
+      "email": "dd"
+    },
+    {
+      "id": 10,
+      "name": "Sebastian",
+      "email": "sebastian.hajdus@gmail.com"
+    }
+  ]
+}
