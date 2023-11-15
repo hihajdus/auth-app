@@ -47,7 +47,16 @@ export class ListComponent {
         console.log(err);
       },
     });
-
-
   }
+
+    //   updateUser(id: number) {
+    //   this.userService.updateUser(id, this.user).subscribe({
+    //     next: (res) => {
+    //       this.users = this.users.filter((user) => user.id !== user.id);
+    //     },
+    //     error: (err) => {
+    //       console.log(err);
+    //     },
+    //   });
+    // }
 }
