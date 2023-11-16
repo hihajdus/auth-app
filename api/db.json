@@ -24,6 +24,18 @@
       "id": "5",
       "name": "Ale",
       "email": "ale@email.com"
+    },
+    {
+      "id": "6",
+      "name": "Tom",
+      "email": "tom@tom.mail",
+      "role": true
+    },
+    {
+      "id": "7",
+      "name": "Mike",
+      "email": "mike@email.com",
+      "role": false
     }
   ]
 }

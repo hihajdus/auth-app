@@ -2,6 +2,7 @@ import { user } from './../../model/user';
 import { UserService } from './../../services/user.service';
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
@@ -13,7 +14,7 @@ export class ListComponent {
   }
 
   users!: user[];
-  user: user = {id: 0 , name: '', email: ''};
+  user: user = { id: 0, name: '', email: '', role: false };
 
   private getUsers() {
     this.userService.getUsers().subscribe({
@@ -49,14 +50,4 @@ export class ListComponent {
     });
   }
 
-    //   updateUser(id: number) {
-    //   this.userService.updateUser(id, this.user).subscribe({
-    //     next: (res) => {
-    //       this.users = this.users.filter((user) => user.id !== user.id);
-    //     },
-    //     error: (err) => {
-    //       console.log(err);
-    //     },
-    //   });
-    // }
 }
